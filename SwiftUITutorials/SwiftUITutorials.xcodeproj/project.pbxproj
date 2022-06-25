@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C17F9F992866B6C700DBD88F /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F9F982866B6C700DBD88F /* BadgeSymbol.swift */; };
+		C17F9F9B2866B82600DBD88F /* RotateBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F9F9A2866B82600DBD88F /* RotateBadgeSymbol.swift */; };
+		C17F9F9D2866B86300DBD88F /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C17F9F9C2866B86300DBD88F /* Badge.swift */; };
 		C18682BA283F5E8100F5F308 /* SwiftUITutorialsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18682B9283F5E8100F5F308 /* SwiftUITutorialsApp.swift */; };
 		C18682BC283F5E8100F5F308 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18682BB283F5E8100F5F308 /* ContentView.swift */; };
 		C18682BE283F5E8500F5F308 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18682BD283F5E8500F5F308 /* Assets.xcassets */; };
@@ -23,6 +26,8 @@
 		C18682FE283F8A5D00F5F308 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18682FD283F8A5D00F5F308 /* LandmarkList.swift */; };
 		C1868300283F8C8000F5F308 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18682FF283F8C8000F5F308 /* LandmarkDetail.swift */; };
 		C1A96D492860CFBD00ABA60D /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A96D482860CFBD00ABA60D /* FavoriteButton.swift */; };
+		C1E320CF2866A884003C9F41 /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E320CE2866A884003C9F41 /* HexagonParameters.swift */; };
+		C1E320D12866AA57003C9F41 /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E320D02866AA57003C9F41 /* BadgeBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C17F9F982866B6C700DBD88F /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		C17F9F9A2866B82600DBD88F /* RotateBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateBadgeSymbol.swift; sourceTree = "<group>"; };
+		C17F9F9C2866B86300DBD88F /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		C18682B6283F5E8100F5F308 /* SwiftUITutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUITutorials.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C18682B9283F5E8100F5F308 /* SwiftUITutorialsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUITutorialsApp.swift; sourceTree = "<group>"; };
 		C18682BB283F5E8100F5F308 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -62,6 +70,8 @@
 		C18682FD283F8A5D00F5F308 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		C18682FF283F8C8000F5F308 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		C1A96D482860CFBD00ABA60D /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		C1E320CE2866A884003C9F41 /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
+		C1E320D02866AA57003C9F41 /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +99,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C17F9F9E2866B8FD00DBD88F /* Badges */ = {
+			isa = PBXGroup;
+			children = (
+				C17F9F9C2866B86300DBD88F /* Badge.swift */,
+				C1E320CE2866A884003C9F41 /* HexagonParameters.swift */,
+				C1E320D02866AA57003C9F41 /* BadgeBackground.swift */,
+				C17F9F982866B6C700DBD88F /* BadgeSymbol.swift */,
+				C17F9F9A2866B82600DBD88F /* RotateBadgeSymbol.swift */,
+			);
+			path = Badges;
+			sourceTree = "<group>";
+		};
 		C18682AD283F5E8100F5F308 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +189,7 @@
 		C18682FC283F84A000F5F308 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C17F9F9E2866B8FD00DBD88F /* Badges */,
 				C1A96D4C2860D16D00ABA60D /* Helpers */,
 				C1A96D4B2860D14500ABA60D /* Landmarks */,
 				C18682BB283F5E8100F5F308 /* ContentView.swift */,
@@ -326,13 +349,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18682BC283F5E8100F5F308 /* ContentView.swift in Sources */,
+				C17F9F9D2866B86300DBD88F /* Badge.swift in Sources */,
 				C18682E6283F6B9400F5F308 /* MapView.swift in Sources */,
+				C17F9F9B2866B82600DBD88F /* RotateBadgeSymbol.swift in Sources */,
 				C18682BA283F5E8100F5F308 /* SwiftUITutorialsApp.swift in Sources */,
 				C1A96D492860CFBD00ABA60D /* FavoriteButton.swift in Sources */,
 				C18682FE283F8A5D00F5F308 /* LandmarkList.swift in Sources */,
+				C17F9F992866B6C700DBD88F /* BadgeSymbol.swift in Sources */,
 				C1868300283F8C8000F5F308 /* LandmarkDetail.swift in Sources */,
 				C18682E4283F68A000F5F308 /* CircleImage.swift in Sources */,
+				C1E320D12866AA57003C9F41 /* BadgeBackground.swift in Sources */,
 				C18682EA283F713900F5F308 /* Landmark.swift in Sources */,
+				C1E320CF2866A884003C9F41 /* HexagonParameters.swift in Sources */,
 				C18682FA283F791400F5F308 /* LandmarkRow.swift in Sources */,
 				C18682EC283F73C400F5F308 /* ModelData.swift in Sources */,
 			);
@@ -490,9 +518,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorials/Preview Content\"";
+				DEVELOPMENT_TEAM = PW2WKDC65M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -507,6 +537,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.acyco.SwiftUITutorials;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -518,9 +549,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUITutorials/Preview Content\"";
+				DEVELOPMENT_TEAM = PW2WKDC65M;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -535,6 +568,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cn.acyco.SwiftUITutorials;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
